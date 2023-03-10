@@ -4,6 +4,7 @@
 You can modify the following line in bashrc
 
 PS1='${debian_chroot:+($debian_chroot)}\[\033[01;34m\]\u\[\033[01;37m\]@\[\033[01;35m\]\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+
 In order that you are able to change the colors for the user, @ symbole, and host to delineate between hosts more easily. The data in the following line snippet is what modifies this
 
 [\033[01;34m]\u[\033[01;37m]@[\033[01;35m]\h[\033[00m]
