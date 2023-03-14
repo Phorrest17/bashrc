@@ -111,3 +111,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+alias haxor='sudo /scripts/haxor.sh'
